@@ -21,7 +21,7 @@ playlist = [
 ]
 playing = False
 song = 0
-pygame.mixer.music.load(playlist[song]) #аплоудим плейлист в миксер для работы с музокой
+pygame.mixer.music.load(playlist[song]) #аплоудим плейлист для работы с музокой
 #включить музыку
 def play_music():
     global playing
@@ -60,13 +60,13 @@ def info(): #информация о музыке и кнопочки
     ts1 = font2.render(t1, True, (255, 255, 255)).get_rect(topleft =(0, 30))
     t2 = "Stop the song"
     screen.blit(font2.render(t2, True, (255, 255, 255)), (300, 30))
-    ts2 = font2.render(t1, True, (255, 255, 255)).get_rect(topleft =(300, 30))
+    ts2 = font2.render(t2, True, (255, 255, 255)).get_rect(topleft =(300, 30))
     t3 = "Next song"
     screen.blit(font2.render(t3, True, (255, 255, 255)), (0, 90))
-    ts3 = font2.render(t1, True, (255, 255, 255)).get_rect(topleft =(0, 90))
+    ts3 = font2.render(t3, True, (255, 255, 255)).get_rect(topleft =(0, 90))
     t4 = "Previous song"
     screen.blit(font2.render(t4, True, (255, 255, 255)), (300, 90))
-    ts4 = font2.render(t1, True, (255, 255, 255)).get_rect(topleft =(300, 90))  
+    ts4 = font2.render(t4, True, (255, 255, 255)).get_rect(topleft =(300, 90))  
 
 
 
