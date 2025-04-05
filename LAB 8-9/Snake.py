@@ -11,9 +11,9 @@ clock = pygame.time.Clock()
 
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
-RED = (213, 50, 80)
+RED = (255, 0, 0)
 BLACK = (0, 0, 0)
-BLUE = (50, 153, 213)
+BLUE = (0, 0, 255)
 
 
 
